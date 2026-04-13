@@ -1,0 +1,53 @@
+{
+  "name": "zoes-ata-dojo",
+  "version": "0.1.0",
+  "description": "A 1v1 arcade fighting game starring Zoe, an 11-year-old black belt. Killer Instinct-inspired combo system meets authentic ATA taekwondo. Built with Phaser 3 + TypeScript.",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "deploy": "npm run build && npx gh-pages -d dist"
+  },
+  "keywords": [
+    "fighting-game",
+    "phaser",
+    "taekwondo",
+    "arcade",
+    "combo-system",
+    "killer-instinct",
+    "html5-game",
+    "typescript",
+    "pwa",
+    "mobile-game",
+    "2d-fighting-game",
+    "martial-arts",
+    "ata-taekwondo",
+    "browser-game",
+    "ios-game"
+  ],
+  "author": "Chirag Mirani <chiragmirani@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://chiragmirani.github.io/zoes-ata-dojo/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChiragMirani/zoes-ata-dojo"
+  },
+  "bugs": {
+    "url": "https://github.com/ChiragMirani/zoes-ata-dojo/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "phaser": "^3.80.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "terser": "^5.39.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1"
+  }
+}
